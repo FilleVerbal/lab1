@@ -3,10 +3,12 @@ import {getQuestion} from './readline.js'
 const [question, close] = getQuestion();
 const valList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 let input = "", again = "Du får välja en till om du vill";
+
+
+console.log("Välkommen, var vänlig och välj ett alternativ mellan a och j tack!!");
+console.log("Eller välj något annat för att avsluta!");
 do {
     console.log();
-    console.log("Välkommen, var vänlig och välj ett alternativ mellan a och j tack!!");
-    console.log("Eller välj något annat för att avsluta!");
     input = await question('>')
     input = input.toLowerCase()
     if (input == "a") {
