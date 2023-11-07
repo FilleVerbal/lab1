@@ -3,8 +3,7 @@ import {getQuestion} from './readline.js'
 const [question, close] = getQuestion();
 const valList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 let input = "", again = "Du får välja en till om du vill";
-console.log(valList.includes(input))
-while (valList.includes(input) ){
+do {
     console.log();
     console.log("Välkommen, var vänlig och välj ett alternativ mellan a och j tack!!");
     console.log("Eller välj något annat för att avsluta!");
@@ -63,7 +62,7 @@ while (valList.includes(input) ){
     else {
         console.log("Hej då!!!")
     }
-}
+} while (valList.includes(input) );
 
 
 
@@ -160,7 +159,7 @@ function bildF() {
 }
 
 function bildG() {
-    for (i = 1; i <= 6; i++){
+    for (let i = 1; i <= 6; i++){
         let text = "";
         for (j = 1; j <= 8; j++){
             if (j % 2 == 0){
@@ -175,7 +174,7 @@ function bildG() {
 }
 
 function bildH() {
-    for (i = 1; i <= 6; i++){
+    for (let i = 1; i <= 6; i++){
         let text = "";
         for (j = 1; j <= 8; j++){
             if (i === 1  || i === 6 || j === 1 || j === 8){
