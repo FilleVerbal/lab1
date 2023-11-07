@@ -161,7 +161,7 @@ function bildF() {
 function bildG() {
     for (let i = 1; i <= 6; i++){
         let text = "";
-        for (j = 1; j <= 8; j++){
+        for (let j = 1; j <= 8; j++){
             if (j % 2 == 0){
                 text = String(text) + ".";
             }
@@ -176,7 +176,7 @@ function bildG() {
 function bildH() {
     for (let i = 1; i <= 6; i++){
         let text = "";
-        for (j = 1; j <= 8; j++){
+        for (let j = 1; j <= 8; j++){
             if (i === 1  || i === 6 || j === 1 || j === 8){
                 text = String(text) + ".";
             }
