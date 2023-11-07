@@ -62,6 +62,7 @@ do {
         console.log(again)
     }
     else {
+        input = input.toUpperCase()
         console.log(input + ", är inte ett alternativ. Hej då!!!")
     }
 } while (valList.includes(input) );
