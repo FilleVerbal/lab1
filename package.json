@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "name": "lab1",
+    "version": "1.0.0",
+    "description": "Lab 1",
+    "main": "lab1.js",
+    "scripts": {
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FilleVerbal/lab1.git"
+    },
+    "keywords": ["modules", "functions"],
+    "author": "David Andersson" 
+}

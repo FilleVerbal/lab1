@@ -3,6 +3,7 @@ import {getQuestion} from './readline.js'
 const [question, close] = getQuestion();
 const valList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 let input = "", again = "Du får välja en till om du vill";
+console.log(valList.includes(input))
 while (valList.includes(input) ){
     console.log();
     console.log("Välkommen, var vänlig och välj ett alternativ mellan a och j tack!!");
