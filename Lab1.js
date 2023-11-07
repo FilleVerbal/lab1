@@ -62,7 +62,7 @@ do {
         console.log(again)
     }
     else {
-        console.log(input + " är inte ett alternativ. Hej då!!!")
+        console.log(input + ", är inte ett alternativ. Hej då!!!")
     }
 } while (valList.includes(input) );
 
